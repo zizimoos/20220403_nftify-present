@@ -6,7 +6,7 @@ const Container = styled.div`
   height: 100vw;
   background-color: #f5f5f5;
 `;
-const IntroScene = styled.div`
+const Content = styled.div`
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -15,14 +15,14 @@ const IntroScene = styled.div`
   align-items: center;
 `;
 
-function Intro(props) {
+function IntroScene(props) {
   return (
     <Container>
-      <IntroScene>
+      <Content>
         <h1>Hello nft World</h1>
-      </IntroScene>
+      </Content>
     </Container>
   );
 }
 
-export default Intro;
+export default IntroScene;

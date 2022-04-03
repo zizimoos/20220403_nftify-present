@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import Intro from "../components/Intro";
+import IntroScene from "../components/Nft/IntroScene";
+import Index from "../components/Nft/Index";
 
 const Container = styled.div`
   width: 100vw;
@@ -14,7 +15,8 @@ const Container = styled.div`
 function Home(props) {
   return (
     <Container>
-      <Intro></Intro>
+      <IntroScene></IntroScene>
+      <Index></Index>
     </Container>
   );
 }
