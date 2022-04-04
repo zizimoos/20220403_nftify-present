@@ -28,12 +28,12 @@ const TextBox = styled.div`
   font-size: 20px;
   line-height: 1.5;
 `;
-const ImgBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
+// const ImgBox = styled.div`
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// `;
 
 function Maintain(props) {
   return (

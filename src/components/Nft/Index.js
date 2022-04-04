@@ -11,11 +11,6 @@ const Container = styled.div`
   align-items: center;
 `;
 
-const Title = styled.div`
-  margin-top: 100px;
-  font-size: 50px;
-`;
-
 function Index(props) {
   return (
     <Container>

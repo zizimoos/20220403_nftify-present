@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import IntroScene from "../components/Nft/IntroScene";
-import Index from "../components/Nft/Index";
+
 import MediumMessage from "../components/Nft/MediumMessage";
 import VideoKilledRadioStar from "../components/Nft/VideoKilledRadioStar";
 import DigitalMusic from "../components/Nft/DigitalMusic";
@@ -28,7 +28,6 @@ const Container = styled.div`
 function NFTHome(props) {
   return (
     <Container>
-      {/* <Index></Index> */}
       <IntroScene></IntroScene>
       <MediumMessage></MediumMessage>
       <VideoKilledRadioStar> </VideoKilledRadioStar>

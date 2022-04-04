@@ -28,18 +28,18 @@ const TextBox = styled.div`
   line-height: 1.5;
 `;
 
-const ImgBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-const SubTitle = styled.div`
-  padding: 10px;
-  font-size: 12px;
-  color: gray;
-  align-self: flex-end;
-`;
+// const ImgBox = styled.div`
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// `;
+// const SubTitle = styled.div`
+//   padding: 10px;
+//   font-size: 12px;
+//   color: gray;
+//   align-self: flex-end;
+// `;
 
 function ThinkBefore(props) {
   return (
