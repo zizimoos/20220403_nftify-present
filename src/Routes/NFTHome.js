@@ -4,6 +4,9 @@ import IntroScene from "../components/Nft/IntroScene";
 import Index from "../components/Nft/Index";
 import MediumMessage from "../components/Nft/MediumMessage";
 import VideoKilledRadioStar from "../components/Nft/VideoKilledRadioStar";
+import DigitalMusic from "../components/Nft/DigitalMusic";
+import Monopoly from "../components/Nft/Monopoly";
+import WhatIsNFT from "../components/Nft/WhatIsNFT";
 
 const Container = styled.div`
   width: 100vw;
@@ -20,6 +23,9 @@ function NFTHome(props) {
       <IntroScene></IntroScene>
       <MediumMessage></MediumMessage>
       <VideoKilledRadioStar> </VideoKilledRadioStar>
+      <DigitalMusic></DigitalMusic>
+      <Monopoly></Monopoly>
+      <WhatIsNFT></WhatIsNFT>
       <Index></Index>
     </Container>
   );

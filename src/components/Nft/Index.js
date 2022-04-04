@@ -25,40 +25,6 @@ function Index(props) {
         <li> 3. NFT발매 전략 & 리스크 </li>
       </ul>
 
-      <Title>디지털 시장과 음악</Title>
-      <div style={{ width: "900px", fontSize: "30px" }}>
-        {`    
-       빌보드 핫 100의 평균 곡 길이가 5년 동안 약 20초 짧아졌다.
-       스트리밍 서비스
-       "TikTok"
-       "Kendrick Lamar"
-        사람들은 더이상 기다리지 않는다.
-        훅 부분이 최대한 빨리 내보낸다.
-        "lemonade"
-
-        `}
-      </div>
-      <Title>극소수만 배부른 독식구조</Title>
-      <div style={{ width: "900px", fontSize: "30px" }}>
-        {`    
-      스포티파이에 1,000명 이상의 청취자를 가진 아티스트는 120만명,
-      연간 5만 달러 이상 로열티 수익을 얻는 아티스트는 1만 3천 400명이다.
-      상위 1%가 되어야만 스트리밍으로 생계유지 가능.
-      청취자 1,000명을 가진 아티스트 중 1%를 말합니다.
-      소비자는 음반보다는 핸드폰으로 듣기만 한다.
-      음반판매 시장이 없어진것이라 할 수 있다.
-      공연만이 살길, 공연수익이 전체시장의 43%.
-      스트리밍과 틱톡류들이 많은 상황에서 NFT의 출연
-        `}
-      </div>
-      <Title>NFT는 무엇인가?</Title>
-      <div style={{ width: "900px", fontSize: "30px" }}>
-        {`    
-        디지털 영수중
-        DECENT : 20%의 스트리밍 로열티를 nft홀더에게 드립니다.(금전적)
-        CATALOG(1/1) : 소유권 1개의 nft만 발행.(컬렉터..)
-        `}
-      </div>
       <Title>음원 NFT판매를 통한 수익</Title>
       <div style={{ width: "900px", fontSize: "30px" }}>
         {`    
