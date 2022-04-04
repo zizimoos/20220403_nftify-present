@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import McLuhan from "../../assets/img/McLuhan-message.jpg";
 
 const Container = styled.div`
   width: 100vw;
@@ -26,11 +27,7 @@ function Index(props) {
         <a href="https://marshallmcluhan.com/">
           <li>Marshall McLUHAN</li>
         </a>
-        <img
-          src="http://sparkarchitects.com/wp-content/uploads/2020/05/Luflan_mediumisthemessage.jpg"
-          width="900px"
-          alt="Marshall McLUHAN"
-        />
+        <img src={McLuhan} width="900px" alt="Marshall McLUHAN" />
       </ul>
       <Title> 매개체가 메시지다.</Title>
       <div style={{ width: "900px", fontSize: "30px" }}>
