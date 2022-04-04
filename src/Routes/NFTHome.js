@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import IntroScene from "../components/Nft/IntroScene";
 import Index from "../components/Nft/Index";
+import MediumMessage from "../components/Nft/MediumMessage";
+import VideoKilledRadioStar from "../components/Nft/VideoKilledRadioStar";
 
 const Container = styled.div`
   width: 100vw;
@@ -12,13 +14,15 @@ const Container = styled.div`
   align-items: center;
 `;
 
-function Home(props) {
+function NFTHome(props) {
   return (
     <Container>
       <IntroScene></IntroScene>
+      <MediumMessage></MediumMessage>
+      <VideoKilledRadioStar> </VideoKilledRadioStar>
       <Index></Index>
     </Container>
   );
 }
 
-export default Home;
+export default NFTHome;

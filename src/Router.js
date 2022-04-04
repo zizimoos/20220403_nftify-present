@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Routes/Home";
+import NFTHome from "./Routes/NFTHome";
 
 function Router(props) {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<NFTHome />} />
       </Routes>
     </BrowserRouter>
   );

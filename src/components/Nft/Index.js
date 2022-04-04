@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import McLuhan from "../../assets/img/McLuhan-message.jpg";
 
 const Container = styled.div`
   width: 100vw;
@@ -24,34 +23,8 @@ function Index(props) {
         <li> 1. 매개체의 발전으로 변하는 음악시장 </li>
         <li> 2. NFT의 등장으로 변하는 아티스트와 팬과의 관계 </li>
         <li> 3. NFT발매 전략 & 리스크 </li>
-        <a href="https://marshallmcluhan.com/">
-          <li>Marshall McLUHAN</li>
-        </a>
-        <img src={McLuhan} width="900px" alt="Marshall McLUHAN" />
       </ul>
-      <Title> 매개체가 메시지다.</Title>
-      <div style={{ width: "900px", fontSize: "30px" }}>
-        {`    
-         " 매개체가 메시지다.
-          예전에는 티비나 라디오였을 것이고,
-          이번에는 전혀 새로운 개념의 NFT가 등장했다.
-          뮤직비디오가 티비에서 핸드폰으로, 다시 핸드폰에서 VR로,
-          심지어 소유할 수 있는 매개체들이 등장했다."
-          
-          `}
-      </div>
-      <Title> "Video killed the radio star"</Title>
-      <div style={{ width: "900px", fontSize: "30px" }}>
-        {`    
-         "Video killed the radio star"
-         데이빗보이의 등장(글램룩) / MTV의 등장(뮤직비디오등장 및 선풍적인 인기)
-          / kanyewest의 등장(실시간 소통 : 아티스트와 친구처럼...) parrial social relationship
-          미디어와 기술의 발전으로 아티스트들과 관객의 의사소통 방식이 변했다.
-          대중과 상호작용하는 방식이 바꾸고있다.
-          창작물도 매개체에 따라 바뀌고 있다.
 
-          `}
-      </div>
       <Title>디지털 시장과 음악</Title>
       <div style={{ width: "900px", fontSize: "30px" }}>
         {`    
