@@ -7,6 +7,8 @@ import VideoKilledRadioStar from "../components/Nft/VideoKilledRadioStar";
 import DigitalMusic from "../components/Nft/DigitalMusic";
 import Monopoly from "../components/Nft/Monopoly";
 import WhatIsNFT from "../components/Nft/WhatIsNFT";
+import Earning from "../components/Nft/Earning";
+import FatTail from "../components/Nft/FatTail";
 
 const Container = styled.div`
   width: 100vw;
@@ -26,6 +28,8 @@ function NFTHome(props) {
       <DigitalMusic></DigitalMusic>
       <Monopoly></Monopoly>
       <WhatIsNFT></WhatIsNFT>
+      <Earning></Earning>
+      <FatTail></FatTail>
       <Index></Index>
     </Container>
   );
