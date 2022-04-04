@@ -10,6 +10,11 @@ import WhatIsNFT from "../components/Nft/WhatIsNFT";
 import Earning from "../components/Nft/Earning";
 import FatTail from "../components/Nft/FatTail";
 import Valuation from "../components/Nft/Valuation";
+import ThinkBefore from "../components/Nft/ThinkBefore";
+import Maintain from "../components/Nft/Maintain";
+import OtherNft from "../components/Nft/OtherNft";
+import Considerations from "../components/Nft/Considerations";
+import Conclusion from "../components/Nft/Conclusion";
 
 const Container = styled.div`
   width: 100vw;
@@ -23,6 +28,7 @@ const Container = styled.div`
 function NFTHome(props) {
   return (
     <Container>
+      {/* <Index></Index> */}
       <IntroScene></IntroScene>
       <MediumMessage></MediumMessage>
       <VideoKilledRadioStar> </VideoKilledRadioStar>
@@ -32,7 +38,11 @@ function NFTHome(props) {
       <Earning></Earning>
       <FatTail></FatTail>
       <Valuation></Valuation>
-      <Index></Index>
+      <ThinkBefore></ThinkBefore>
+      <Maintain></Maintain>
+      <OtherNft></OtherNft>
+      <Considerations></Considerations>
+      <Conclusion></Conclusion>
     </Container>
   );
 }
