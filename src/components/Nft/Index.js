@@ -29,7 +29,7 @@ function Index(props) {
         <img
           src="http://sparkarchitects.com/wp-content/uploads/2020/05/Luflan_mediumisthemessage.jpg"
           width="900px"
-          alt="http://www.sparkarchitects.com/the-medium-is-the-message-spark-2020-05-12/"
+          alt="Marshall McLUHAN"
         />
       </ul>
       <Title> 매개체가 메시지다.</Title>
