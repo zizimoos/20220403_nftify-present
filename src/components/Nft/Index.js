@@ -24,26 +24,7 @@ function Index(props) {
         <li> 2. NFT의 등장으로 변하는 아티스트와 팬과의 관계 </li>
         <li> 3. NFT발매 전략 & 리스크 </li>
       </ul>
-      <Title>뭐가 더 가치 있을까?</Title>
-      <div style={{ width: "900px", fontSize: "30px" }}>
-        {`    
-     세상은 넓고 취향은 많다.
-        `}
-        <p>음악 소비에 대한 기준은 가치가 모호하다. 음악성, 외모,.....</p>
-        <p>
-          모호성 속에서 투자자와 아티스트간의 중요한 공통점을 찾는 다면, 이
-          nft가 미래에도 거래 될 수 있는 가... 이다.
-        </p>
-        <p>
-          nft에 대한 거래가 꾸준히 발생해야 거래 발생에 대한 로열티를 받을 수
-          있다. 되팔때에도 로열티가 들어 오기 때문이다. 이것은, 발행하는
-          아티스트에게도 투자자에게도 중요한 포인트이다.
-        </p>
-        <img
-          src="https://pbs.twimg.com/media/FFsSU8cXoAgOPGM?format=jpg&name=small"
-          alt="secondary sales"
-        ></img>
-      </div>
+
       <Title>NFT를 발매하기 전에 생각해보자</Title>
       <div style={{ width: "900px", fontSize: "30px" }}>
         {`    

@@ -9,6 +9,7 @@ import Monopoly from "../components/Nft/Monopoly";
 import WhatIsNFT from "../components/Nft/WhatIsNFT";
 import Earning from "../components/Nft/Earning";
 import FatTail from "../components/Nft/FatTail";
+import Valuation from "../components/Nft/Valuation";
 
 const Container = styled.div`
   width: 100vw;
@@ -30,6 +31,7 @@ function NFTHome(props) {
       <WhatIsNFT></WhatIsNFT>
       <Earning></Earning>
       <FatTail></FatTail>
+      <Valuation></Valuation>
       <Index></Index>
     </Container>
   );
