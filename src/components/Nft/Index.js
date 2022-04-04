@@ -103,7 +103,10 @@ function Index(props) {
 
         `}
         <div>diagram E : The Emergence of fat tail</div>
-        <img src="https://miro.medium.com/max/1400/1*hMk4kIkx_ANOLLCq70VM8w.png"></img>
+        <img
+          src="https://miro.medium.com/max/1400/1*hMk4kIkx_ANOLLCq70VM8w.png"
+          alt="fat tail"
+        ></img>
         <div>
           작고 잘 알려지지 않은 아티스트들도 많은 수익을 낼 수 있는 환경이
           조성된다.
@@ -140,7 +143,10 @@ function Index(props) {
           있다. 되팔때에도 로열티가 들어 오기 때문이다. 이것은, 발행하는
           아티스트에게도 투자자에게도 중요한 포인트이다.
         </p>
-        <img src="https://pbs.twimg.com/media/FFsSU8cXoAgOPGM?format=jpg&name=small"></img>
+        <img
+          src="https://pbs.twimg.com/media/FFsSU8cXoAgOPGM?format=jpg&name=small"
+          alt="secondary sales"
+        ></img>
       </div>
       <Title>NFT를 발매하기 전에 생각해보자</Title>
       <div style={{ width: "900px", fontSize: "30px" }}>
