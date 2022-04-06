@@ -18,7 +18,6 @@ const Content = styled.div`
   justify-content: center;
   align-items: center;
 `;
-
 const Title = styled.div`
   font-size: 50px;
 `;
@@ -27,7 +26,6 @@ const TextBox = styled.div`
   font-size: 20px;
   line-height: 1.5;
 `;
-
 const ImgBox = styled.div`
   display: flex;
   flex-direction: column;
@@ -63,6 +61,7 @@ function FatTail(props) {
             작고 잘 알려지지 않은 아티스트들도 많은 수익을 낼 수 있는 환경이
             조성된다.
           </p>
+          <a href="https://www.youtube.com/watch?v=NdOqUnTAJ5o">이런 아티스트</a>
           <br></br>
           <p> nft를 산다는 것은, </p>
           <p> nft를 통해서 아티스트를 지원하고,</p>

@@ -19,7 +19,6 @@ const Content = styled.div`
   justify-content: center;
   align-items: center;
 `;
-
 const Title = styled.div`
   font-size: 50px;
 `;

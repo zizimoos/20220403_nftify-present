@@ -9,7 +9,6 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
 `;
-
 const Content = styled.div`
   width: 900px;
   height: 100%;
@@ -19,7 +18,6 @@ const Content = styled.div`
   justify-content: center;
   align-items: center;
 `;
-
 const Title = styled.div`
   font-size: 50px;
 `;
