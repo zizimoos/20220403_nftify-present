@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Container = styled.div`
+export const Container = styled.div`
   width: 100vw;
   height: 100%;
   display: flex;
@@ -9,7 +9,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
 `;
-const Content = styled.div`
+export const Content = styled.div`
   width: 900px;
   height: 100%;
   margin: 200px 0;
@@ -18,21 +18,21 @@ const Content = styled.div`
   justify-content: center;
   align-items: center;
 `;
-const Title = styled.div`
+export const Title = styled.div`
   font-size: 50px;
 `;
-const TextBox = styled.div`
+export const TextBox = styled.div`
   margin-top: 100px;
   font-size: 20px;
   line-height: 1.5;
 `;
-const ImgBox = styled.div`
+export const ImgBox = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
-const SubTitle = styled.div`
+export const SubTitle = styled.div`
   padding: 10px;
   font-size: 12px;
   color: gray;

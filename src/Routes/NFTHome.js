@@ -15,6 +15,7 @@ import Maintain from "../components/Nft/Maintain";
 import OtherNft from "../components/Nft/OtherNft";
 import Considerations from "../components/Nft/Considerations";
 import Conclusion from "../components/Nft/Conclusion";
+import OurTeam from "../components/Nft/OurTeam";
 
 const Container = styled.div`
   width: 100vw;
@@ -42,6 +43,7 @@ function NFTHome(props) {
       <OtherNft></OtherNft>
       <Considerations></Considerations>
       <Conclusion></Conclusion>
+      <OurTeam></OurTeam>
     </Container>
   );
 }
