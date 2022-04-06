@@ -61,6 +61,7 @@ function FatTail(props) {
             작고 잘 알려지지 않은 아티스트들도 많은 수익을 낼 수 있는 환경이
             조성된다.
           </p>
+          <br></br>
           <a href="https://www.youtube.com/watch?v=NdOqUnTAJ5o">이런 아티스트</a>
           <br></br>
           <p> nft를 산다는 것은, </p>
